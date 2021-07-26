@@ -13,6 +13,9 @@ sudo bash go.sh
 
 ## 安装v2rayA
 ```
+wget -qO - https://apt.v2raya.mzz.pub/key/public-key.asc | sudo apt-key add -
+echo "deb https://apt.v2raya.mzz.pub/ v2raya main" | sudo tee /etc/apt/sources.list.d/v2raya.list
+sudo apt update
 sudo apt install v2rayA
 ```
 ## 参考
